@@ -1,0 +1,144 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: CadmiumOrange; /* Replace with actual color code */
+}
+
+/* Header styles */
+.header {
+    background-color: #00aaff; /* Replace with Gulf Blue color code */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Navigation styles */
+.nav {
+    background-color: #ff6600; /* Replace with Cadmium Orange color code */
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: #e55b00; /* Slightly darker shade of Cadmium Orange for hover effect */
+}
+
+/* Section styles */
+.section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #f0f0f0; /* Replace with Glitter color code */
+}
+
+/* About and Services sections */
+.about, .services {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Portfolio styles */
+.portfolio {
+    background-color: #ffffff;
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Testimonials styles */
+.testimonials {
+    background-color: #ff6600; /* Replace with Cadmium Orange color code */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.testimonials p {
+    margin-bottom: 10px;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #ffffff;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input, .contact form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact form button {
+    background-color: #f4c542; /* Replace with RYB Yellow color code */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #e0b635; /* Slightly darker shade of RYB Yellow for hover effect */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #00aaff; /* Replace with Gulf Blue color code */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0;
+}
